@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+
+# Environment and secrets
+.env
+.env.local
+*.env
+*.pem
+*.key
+serviceAccountKey.json
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
